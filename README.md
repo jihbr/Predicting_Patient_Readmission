@@ -48,7 +48,7 @@ Installation
 
 ## Prerequisites:
 Python (3.8 or higher)
-Libraries: pandas, numpy, matplotlib, seaborn, statsmodels, scikit-learn, PyCaret
+Libraries: pandas, numpy, matplotlib, seaborn, statsmodels, scikit-learn, PyCaret<br/>
 Steps:
 ### Clone this repository:
 ```bash
