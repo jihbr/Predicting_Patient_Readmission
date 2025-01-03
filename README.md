@@ -25,7 +25,7 @@ How can machine learning models improve the prediction of readmission rates?
 ## Repository Structure
 
 ``` plaintext
-Copy code
+
 ├── datasets/
 │   ├── CalHHS_30-Day_Readmission_Rate.csv
 │   ├── Cal_County_Pop_2011-2022.csv
@@ -49,7 +49,8 @@ Copy code
 │       └── Model_Selection.ipynb
 │
 ├── requirements.txt
-└── README.md ```
+└── README.md
+```
 ## Features
 
 Data Wrangling: Preprocesses datasets to ensure consistency and usability.
