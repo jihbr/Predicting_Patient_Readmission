@@ -1,8 +1,8 @@
-#Predicting Patient Readmission
+# Predicting Patient Readmission
 
 A comprehensive project focused on analyzing and predicting 30-day hospital readmission rates. This repository includes cleaned datasets, data wrangling notebooks, exploratory data analysis, mediation analysis, and machine learning models for predictive insights.
 
-##Table of Contents
+## Table of Contents
 
 Project Overview
 Repository Structure
@@ -17,12 +17,12 @@ Project Overview
 
 The project aims to understand factors influencing hospital readmission rates, leveraging mediation analysis and machine learning models to uncover actionable insights. Data from multiple sources such as income, population, and readmission rates are used to explore relationships and predict outcomes.
 
-##Key Questions:
+## Key Questions:
 What socio-economic factors contribute to 30-day readmission rates?
 Does income mediate the relationship between population and readmission rates?
 How can machine learning models improve the prediction of readmission rates?
 
-##Repository Structure
+## Repository Structure
 
 plaintext
 Copy code
@@ -50,7 +50,7 @@ Copy code
 │
 ├── requirements.txt
 └── README.md
-##Features
+## Features
 
 Data Wrangling: Preprocesses datasets to ensure consistency and usability.
 Exploratory Data Analysis (EDA): Visualizes patterns and trends in readmission rates, income, and population data.
@@ -58,7 +58,7 @@ Mediation Analysis: Explores relationships between income, population, and readm
 Machine Learning: Implements predictive models to identify factors most impacting readmission rates.
 Installation
 
-##Prerequisites:
+## Prerequisites:
 Python (3.8 or higher)
 Libraries: pandas, numpy, matplotlib, seaborn, statsmodels, scikit-learn
 Steps:
@@ -81,7 +81,7 @@ Copy code
 pip install -r requirements.txt
 Usage
 
-##Data Wrangling:
+## Data Wrangling:
 Run the notebooks in the Data_Wrangling folder to clean and preprocess the data:
 
 bash
@@ -92,7 +92,7 @@ Start with Exploratory_Data_Analysis_1.ipynb and Exploratory_Data_Analysis_2.ipy
 Use Mediation_Analysis.ipynb to explore relationships between variables.
 Apply machine learning models with Model_Selection.ipynb.
 
-##Results
+## Results
 
 Key Findings:
 Mediation analysis shows limited evidence for income acting as a mediator between population and readmission rates.
@@ -100,7 +100,7 @@ Machine learning identified significant features such as population size and adm
 Model Performance:
 R-squared: 0.375 for regression models predicting readmission rates.
 
-##Contributing
+## Contributing
 
 We welcome contributions to improve the project! Please follow these steps:
 
@@ -116,11 +116,11 @@ git commit -m "Add new feature"
 Push the changes and open a pull request.
 Refer to the Contributing Guidelines for more details.
 
-##License
+## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-##Acknowledgments
+## Acknowledgments
 
 Statistical Models: Thanks to Statsmodels.
 Visualization: Built using Matplotlib and Seaborn.
