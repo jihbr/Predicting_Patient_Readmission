@@ -40,10 +40,10 @@ How can machine learning models improve the prediction of readmission rates?<br/
 ```
 ## Features
 
-Data Wrangling: Preprocesses datasets to ensure consistency and usability.
-Exploratory Data Analysis (EDA): Visualizes patterns and trends in readmission rates, income, and population data.
-Mediation Analysis: Explores relationships between income, population, and readmission rates.
-Machine Learning: Implements predictive models to identify factors most impacting readmission rates.
+Data Wrangling: Preprocesses datasets to ensure consistency and usability.<br/>
+Exploratory Data Analysis (EDA): Visualizes patterns and trends in readmission rates, income, and population data.<br/>
+Mediation Analysis: Explores relationships between income, population, and readmission rates.<br/>
+Machine Learning: Implements predictive models to identify factors most impacting readmission rates.<br/>
 Installation
 
 ## Prerequisites:
