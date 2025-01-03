@@ -63,57 +63,58 @@ Installation
 Python (3.8 or higher)
 Libraries: pandas, numpy, matplotlib, seaborn, statsmodels, scikit-learn
 Steps:
-Clone this repository:
-bash
-Copy code
+### Clone this repository:
+```bash
 git clone https://github.com/username/Predicting_Patient_Readmission.git
-Navigate to the project directory:
-bash
-Copy code
+```
+
+### Navigate to the project directory:
+``` bash
 cd Predicting_Patient_Readmission
-Create and activate a virtual environment:
-bash
-Copy code
+```
+### Create and activate a virtual environment:
+``` bash
 python -m venv venv
 source venv/bin/activate  # For Windows: venv\Scripts\activate
-Install dependencies:
-bash
-Copy code
+```
+### Install dependencies:
+```bash
 pip install -r requirements.txt
-Usage
+```
 
-## Data Wrangling:
+## Usage
+
+### Data Wrangling:
 Run the notebooks in the Data_Wrangling folder to clean and preprocess the data:
 
-bash
-Copy code
+``` bash
 notebooks/Data_Wrangling/Cal_County_Pop_2011-2022.ipynb
-Analysis:
+```
+
+### Analysis:
 Start with Exploratory_Data_Analysis_1.ipynb and Exploratory_Data_Analysis_2.ipynb for visual insights.
 Use Mediation_Analysis.ipynb to explore relationships between variables.
 Apply machine learning models with Model_Selection.ipynb.
 
 ## Results
 
-Key Findings:
+### Key Findings:
 Mediation analysis shows limited evidence for income acting as a mediator between population and readmission rates.
 Machine learning identified significant features such as population size and admission proportions.
 Model Performance:
-R-squared: 0.375 for regression models predicting readmission rates.
+R-squared: 0.77 for Gradient Boosting Regressor model predicting readmission rates.
 
 ## Contributing
 
-We welcome contributions to improve the project! Please follow these steps:
+I welcome contributions to improve the project! Please follow these steps:
 
 Fork this repository.
 Create a new branch:
-bash
-Copy code
-git checkout -b feature-name
 Commit your changes:
-bash
+```bash
 Copy code
 git commit -m "Add new feature"
+```
 Push the changes and open a pull request.
 Refer to the Contributing Guidelines for more details.
 
@@ -126,3 +127,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 Statistical Models: Thanks to Statsmodels.
 Visualization: Built using Matplotlib and Seaborn.
 Data Sources: Datasets curated from public California HHS and population statistics.
+This product uses the FRED® API but is not endorsed or certified by the Federal Reserve Bank of St. Louis.
